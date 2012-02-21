@@ -37,13 +37,10 @@ public abstract class EntrySearchStringIterator implements Iterator<String> {
 		}
 	}
 	
-	@Override
 	public abstract boolean hasNext();
 
-	@Override
 	public abstract String next();
 
-	@Override
 	public void remove() {
 		throw new UnsupportedOperationException("This iterator cannot be used to remove strings.");
 		

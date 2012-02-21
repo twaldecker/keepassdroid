@@ -292,7 +292,6 @@ public class PasswordActivity extends LockingActivity {
 	
 	private class DefaultCheckChange implements CompoundButton.OnCheckedChangeListener {
 		
-		@Override
 		public void onCheckedChanged(CompoundButton buttonView,
 				boolean isChecked) {
 			
